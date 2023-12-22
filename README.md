@@ -48,4 +48,4 @@ The network architecture was somewhat limited by my compute- it's possible that 
 
 Below shows the episode reward mean (using custom rewards defined in al_harvest_env.py) for 3700 episodes of training which took 81 hours on my machine.
 
-![My Best Training Run](training_image.PNG)
+![My Best Training Run](training_image.png)
