@@ -1,6 +1,6 @@
 # Melting Pot 2023 Reinforcement Learning Approach - Team Marlshmallows
 
-This repository contains the code I used to train an agent to play the allelopathic_harvest__open substrate for the Melting Pot competition. Some of the code is from the ([baselines repository](https://github.com/rstrivedi/Melting-Pot-Contest-2023)) provided at the start of the competition.
+This repository contains the code I used to train an agent to play the allelopathic_harvest__open substrate for the Melting Pot competition. Some of the code is from the [baselines repository](https://github.com/rstrivedi/Melting-Pot-Contest-2023) provided at the start of the competition.
 
 ## Setup Guide
 
@@ -37,7 +37,7 @@ To start training:
 2. Run the training script:
 `python train.py`
 
-The training will run infinitely until you ctrl+c in the terminal. It is configured to save the model checkpoint every 2 episodes. Only the last 500 checkpoints are kept. The checkpoint files should be located in output_dir/torch/al_harvest/PPO_meltingpot_x/checkpoint_x/policies/default_policy/. The content of the default_policy directory can be copied to the al_harvest_checkpoint/ directory ([here](https://github.com/benjamin-swain/meltingpot-2023-solution)) for evaluation.
+The training will run infinitely until you ctrl+c in the terminal. It is configured to save the model checkpoint every 2 episodes. Only the last 500 checkpoints are kept. The checkpoint files should be located in output_dir/torch/al_harvest/PPO_meltingpot_x/checkpoint_x/policies/default_policy/. The content of the default_policy directory can be copied to the al_harvest_checkpoint/ directory in the [evaluation repo](https://github.com/benjamin-swain/meltingpot-2023-solution) for evaluation (you will need to complete the setup guide in the evaluation repo to run it).
 
 ## Future Work
 
