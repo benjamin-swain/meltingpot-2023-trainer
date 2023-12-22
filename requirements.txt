@@ -1,0 +1,11 @@
+dm_env==1.6
+dm_meltingpot==2.2.0
+dm_tree==0.1.8
+dmlab2d==1.0.0
+gymnasium==0.26.3
+ml_collections==0.1.1
+numpy==1.24.3
+opencv_python==4.8.0.76
+ray[rllib]==2.6.1
+wandb==0.15.10
+torch==2.0.1
